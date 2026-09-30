@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Patient Rhino results</title>
+  <style>
+    :root { color-scheme: light dark; --bg:Canvas; --card:Canvas; --ink:CanvasText; --muted:GrayText; --line:color-mix(in srgb, CanvasText 18%, Canvas); --good:#087c54; --bad:#c43232; --accent:LinkText; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-height:1.4; }
+    main { width:min(100%, 960px); margin:0 auto; padding:20px 14px 32px; overflow-wrap:anywhere; }
+    h1 { margin:0; font-size:1.45rem; letter-spacing:-.02em; }
+    .period { margin:3px 0 18px; color:var(--muted); font-size:.9rem; }
+    .tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(155px,1fr)); gap:10px; }
+    .tile, .panel, details { background:var(--card); border:1px solid var(--line); border-radius:12px; }
+    .tile { min-height:140px; padding:14px; display:grid; grid-template-columns:1fr 58px; grid-template-rows:auto 1fr auto; gap:4px; }
+    .label { color:var(--muted); font-size:.82rem; font-weight:650; grid-column:1 / -1; }
+    .value { font-size:1.42rem; font-weight:750; align-self:end; letter-spacing:-.025em; }
+    .change { font-size:.78rem; font-weight:700; align-self:end; text-align:right; }
+    .good { color:var(--good); } .bad { color:var(--bad); } .neutral { color:var(--muted); }
+    svg { grid-column:1 / -1; width:100%; height:31px; overflow:visible; } .spark { fill:none; stroke:var(--accent); stroke-width:2; stroke-linecap:round; stroke-linejoin:round; }
+    .summary { margin:18px 2px; font-size:1rem; font-weight:600; }
+    .panel { margin-top:14px; padding:14px; overflow:hidden; }
+    h2 { margin:0 0 10px; font-size:1rem; }
+    .table-wrap { overflow-x:auto; margin:0 -14px; padding:0 14px; }
+    table { border-collapse:collapse; width:100%; min-width:440px; font-size:.86rem; }
+    th, td { padding:10px 8px; text-align:right; border-bottom:1px solid var(--line); white-space:nowrap; }
+    th { color:var(--muted); font-size:.72rem; text-transform:uppercase; letter-spacing:.03em; } th:first-child, td:first-child { text-align:left; }
+    tr:last-child td { border-bottom:0; }
+    .ad { display:grid; grid-template-columns:minmax(0,1fr) auto auto; gap:8px; padding:11px 0; border-bottom:1px solid var(--line); font-size:.9rem; }
+    .ad:last-child { border-bottom:0; } .ad-name { font-weight:650; } .campaign { color:var(--muted); font-size:.78rem; }
+    details { margin-top:14px; padding:0 14px; } summary { cursor:pointer; padding:14px 0; font-weight:700; } .details-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(145px,1fr)); gap:8px; padding:0 0 14px; }
+    .detail { padding:9px; border:1px solid var(--line); border-radius:8px; } .detail b { display:block; margin-top:2px; }
+    footer { margin-top:20px; color:var(--muted); font-size:.78rem; } .verify { font-weight:700; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Patient Rhino results</h1>
+    <p class="period">Sep 21 to Sep 27</p>
+    <section class="tiles" aria-label="Headline results"><article class="tile"><span class="label">Ad spend</span><strong class="value">$4,960.35</strong><span class="change bad">↓ 19.5%</span><svg viewBox="0 0 100 31" role="img" aria-label="Trend"><polyline class="spark" points="0.0,16.6 14.3,6.8 28.6,23.9 42.9,28.0 57.1,27.8 71.4,19.2 85.7,3.0 100.0,20.9" /></svg></article><article class="tile"><span class="label">Leads (Meta)</span><strong class="value">322</strong><span class="change bad">↓ 20.5%</span><svg viewBox="0 0 100 31" role="img" aria-label="Trend"><polyline class="spark" points="0.0,10.8 14.3,7.5 28.6,22.0 42.9,28.0 57.1,23.1 71.4,20.1 85.7,3.0 100.0,13.6" /></svg></article><article class="tile"><span class="label">Leads in CRM</span><strong class="value">203</strong><span class="change bad">↓ 16.1%</span><svg viewBox="0 0 100 31" role="img" aria-label="Trend"><polyline class="spark" points="0.0,14.7 14.3,6.3 28.6,20.0 42.9,26.9 57.1,20.0 71.4,28.0 85.7,3.0 100.0,11.6" /></svg></article><article class="tile"><span class="label">Cost per CRM lead</span><strong class="value">$24.44</strong><span class="change good">↓ 4.0%</span><svg viewBox="0 0 100 31" role="img" aria-label="Trend"><polyline class="spark" points="0.0,22.4 14.3,25.3 28.6,20.6 42.9,12.9 57.1,23.3 71.4,3.0 85.7,26.3 100.0,28.0" /></svg></article></section>
+    <p class="summary"></p>
+    <section class="panel"><h2>Results by spa</h2><div class="table-wrap"><table><thead><tr><th>Spa</th><th>Ad spend</th><th>Leads (Meta)</th><th>Leads in CRM</th><th>Cost per CRM lead</th></tr></thead><tbody><tr><td>DMP</td><td>$170.34</td><td>7</td><td>5</td><td>$34.07</td></tr><tr><td>Dr Chase</td><td>$172.44</td><td>6</td><td>3</td><td>$57.48</td></tr><tr><td>Bellatox KY</td><td>$1,171.52</td><td>135</td><td>100</td><td>$11.72</td></tr><tr><td>Bellatox IN</td><td>$459.62</td><td>29</td><td>23</td><td>$19.98</td></tr><tr><td>Bellatox (both locations)</td><td>$34.62</td><td>0</td><td>0</td><td>—</td></tr><tr><td>Beauty to the Bone</td><td>$345.71</td><td>11</td><td>11</td><td>$31.43</td></tr><tr><td>Starwood</td><td>$698.04</td><td>24</td><td>21</td><td>$33.24</td></tr><tr><td>Sanctuaire</td><td>$660.10</td><td>45</td><td>0</td><td>—</td></tr><tr><td>Essential Health</td><td>$415.36</td><td>25</td><td>13</td><td>$31.95</td></tr><tr><td>C Your Beauty</td><td>$259.36</td><td>14</td><td>4</td><td>$64.84</td></tr><tr><td>Desert Zen</td><td>$573.24</td><td>26</td><td>23</td><td>$24.92</td></tr></tbody></table></div></section>
+    <section class="panel"><h2>Top ads</h2><div class="ad"><div><div class="ad-name">DCT-PRX Glow Assets IMG-BOOK</div><div class="campaign">KS-PR- (KY)- BellaTox-September PRX Glow Event- Lead- CBO</div></div><div>$587.96</div><div>70 lead forms, 1 messages</div></div><div class="ad"><div><div class="ad-name">DCT - IMG- Client Assets- BOOK</div><div class="campaign">KS-PR- (KY)- BellaTox-Summer Glass X 50% OFF-Lead- CBO</div></div><div>$122.48</div><div>18 lead forms</div></div><div class="ad"><div><div class="ad-name">DCT-IMG-TUMMY RESCUE-GET OFFER</div><div class="campaign">KS PR- DCT-COLD-$149  Mummy Tummy Rescue- TShape-CBO</div></div><div>$164.54</div><div>17 lead forms</div></div><div class="ad"><div><div class="ad-name">DCT-VID-Client Assets- Book</div><div class="campaign">[Updated 5.21.2026] PR | COLD | DCT | $9.99 Tox/$100 Off Filler Model| On FB Lead | CBO- Scaled 7.7.26</div></div><div>$120.90</div><div>15 lead forms</div></div><div class="ad"><div><div class="ad-name">DCT-IMG-Aug Refresh- Book</div><div class="campaign">PR- DCT- Starwood Frisco-COLD- $249 MMM- CBO- Scaled 4.21</div></div><div>$220.48</div><div>14 lead forms</div></div></section>
+    <details><summary>Details</summary><div class="details-grid"><div class="detail"><span class="label">Appointments booked</span><b>0</b></div><div class="detail"><span class="label">Appointments showed</span><b>0</b></div><div class="detail"><span class="label">Cost per message</span><b>$450.94</b></div><div class="detail"><span class="label">Cost per CRM lead</span><b>$24.44</b></div><div class="detail"><span class="label">Leads in CRM</span><b>203</b></div><div class="detail"><span class="label">Raw CRM leads</span><b>203</b></div><div class="detail"><span class="label">CTR</span><b>1.2%</b></div><div class="detail"><span class="label">Google conversions</span><b>Not connected yet</b></div><div class="detail"><span class="label">Google spend</span><b>Not connected yet</b></div><div class="detail"><span class="label">Impressions</span><b>243,392</b></div><div class="detail"><span class="label">Landing page views</span><b>20</b></div><div class="detail"><span class="label">Link clicks</span><b>2,859</b></div><div class="detail"><span class="label">Messages</span><b>11</b></div><div class="detail"><span class="label">Meta spend</span><b>$4,960.35</b></div><div class="detail"><span class="label">Leads (Meta)</span><b>322</b></div><div class="detail"><span class="label">Reach</span><b>128,322</b></div><div class="detail"><span class="label">Ad spend</span><b>$4,960.35</b></div><div class="detail"><span class="label">TikTok leads</span><b>Not connected yet</b></div><div class="detail"><span class="label">TikTok spend</span><b>Not connected yet</b></div></div></details>
+    <footer><strong>How we count.</strong> Lead: Meta leads are lead forms counted by Meta. CRM leads are new GoHighLevel contacts with source Facebook in each spa&#x27;s account during the Monday to Sunday week, deduped by person. The gap between the two is the lead audit. Updated Sep 30, 2026 2:50 AM UTC-07:00. <span class="verify good">Verification: Pass.</span></footer>
+  </main>
+</body>
+</html>

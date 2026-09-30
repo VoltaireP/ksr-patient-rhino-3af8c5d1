@@ -1,0 +1,485 @@
+{
+  "alarms": [],
+  "client": "patient-rhino",
+  "currency": "USD",
+  "daily": [],
+  "display_name": "Patient Rhino",
+  "generated_at": "2026-09-30T02:50:34.642383-07:00",
+  "headline": [
+    {
+      "format": "money",
+      "key": "spend",
+      "label": "Ad spend",
+      "prior": 6163.43,
+      "trend": [
+        5248.44,
+        5910.96,
+        4763.59,
+        4485.5,
+        4495.87,
+        5076.14,
+        6163.43,
+        4960.35
+      ],
+      "value": 4960.35
+    },
+    {
+      "format": "int",
+      "key": "pixel_leads",
+      "label": "Leads (Meta)",
+      "prior": 405,
+      "trend": [
+        344,
+        370,
+        257,
+        210,
+        248,
+        272,
+        405,
+        322
+      ],
+      "value": 322
+    },
+    {
+      "format": "int",
+      "key": "crm_leads",
+      "label": "Leads in CRM",
+      "prior": 242,
+      "trend": [
+        189,
+        227,
+        165,
+        134,
+        165,
+        129,
+        242,
+        203
+      ],
+      "value": 203
+    },
+    {
+      "format": "money",
+      "key": "cpl",
+      "label": "Cost per CRM lead",
+      "prior": 25.47,
+      "trend": [
+        27.77,
+        26.04,
+        28.87,
+        33.47,
+        27.25,
+        39.35,
+        25.47,
+        24.44
+      ],
+      "value": 24.44
+    }
+  ],
+  "insight": null,
+  "labels": {
+    "cpl": "Cost per CRM lead",
+    "crm_leads": "Leads in CRM",
+    "pixel_leads": "Leads (Meta)"
+  },
+  "metrics": {
+    "appointments_booked": 0,
+    "appointments_showed": 0,
+    "cost_per_message": 450.94,
+    "cpl": 24.44,
+    "crm_leads": 203,
+    "crm_leads_raw": 203,
+    "ctr": 0.011746,
+    "google_conversions": 0,
+    "google_spend": 0,
+    "impressions": 243392,
+    "landing_page_views": 20,
+    "link_clicks": 2859,
+    "messages": 11,
+    "meta_spend": 4960.35,
+    "pixel_leads": 322,
+    "reach": 128322,
+    "spend": 4960.35,
+    "tiktok_leads": 0,
+    "tiktok_spend": 0
+  },
+  "segment_label": "spa",
+  "segments": [
+    {
+      "metrics": {
+        "appointments_booked": 0,
+        "appointments_showed": 0,
+        "cost_per_message": null,
+        "cpl": 34.07,
+        "crm_leads": 5,
+        "crm_leads_raw": 5,
+        "ctr": 0.009088,
+        "google_conversions": 0,
+        "google_spend": 0,
+        "impressions": 3631,
+        "landing_page_views": 0,
+        "link_clicks": 33,
+        "messages": 0,
+        "meta_spend": 170.34,
+        "pixel_leads": 7,
+        "reach": 1866,
+        "spend": 170.34,
+        "tiktok_leads": 0,
+        "tiktok_spend": 0
+      },
+      "name": "DMP"
+    },
+    {
+      "metrics": {
+        "appointments_booked": 0,
+        "appointments_showed": 0,
+        "cost_per_message": null,
+        "cpl": 57.48,
+        "crm_leads": 3,
+        "crm_leads_raw": 3,
+        "ctr": 0.013111,
+        "google_conversions": 0,
+        "google_spend": 0,
+        "impressions": 5034,
+        "landing_page_views": 0,
+        "link_clicks": 66,
+        "messages": 0,
+        "meta_spend": 172.44,
+        "pixel_leads": 6,
+        "reach": 2632,
+        "spend": 172.44,
+        "tiktok_leads": 0,
+        "tiktok_spend": 0
+      },
+      "name": "Dr Chase"
+    },
+    {
+      "metrics": {
+        "appointments_booked": 0,
+        "appointments_showed": 0,
+        "cost_per_message": 1171.52,
+        "cpl": 11.72,
+        "crm_leads": 100,
+        "crm_leads_raw": 100,
+        "ctr": 0.011028,
+        "google_conversions": 0,
+        "google_spend": 0,
+        "impressions": 130215,
+        "landing_page_views": 0,
+        "link_clicks": 1436,
+        "messages": 1,
+        "meta_spend": 1171.52,
+        "pixel_leads": 135,
+        "reach": 61462,
+        "spend": 1171.52,
+        "tiktok_leads": 0,
+        "tiktok_spend": 0
+      },
+      "name": "Bellatox KY"
+    },
+    {
+      "metrics": {
+        "appointments_booked": 0,
+        "appointments_showed": 0,
+        "cost_per_message": 459.62,
+        "cpl": 19.98,
+        "crm_leads": 23,
+        "crm_leads_raw": 23,
+        "ctr": 0.01227,
+        "google_conversions": 0,
+        "google_spend": 0,
+        "impressions": 16952,
+        "landing_page_views": 0,
+        "link_clicks": 208,
+        "messages": 1,
+        "meta_spend": 459.62,
+        "pixel_leads": 29,
+        "reach": 9700,
+        "spend": 459.62,
+        "tiktok_leads": 0,
+        "tiktok_spend": 0
+      },
+      "name": "Bellatox IN"
+    },
+    {
+      "metrics": {
+        "appointments_booked": 0,
+        "appointments_showed": 0,
+        "cost_per_message": null,
+        "cpl": null,
+        "crm_leads": 0,
+        "crm_leads_raw": 0,
+        "ctr": 0.0,
+        "google_conversions": 0,
+        "google_spend": 0,
+        "impressions": 4552,
+        "landing_page_views": 0,
+        "link_clicks": 0,
+        "messages": 0,
+        "meta_spend": 34.62,
+        "pixel_leads": 0,
+        "reach": 3511,
+        "spend": 34.62,
+        "tiktok_leads": 0,
+        "tiktok_spend": 0
+      },
+      "name": "Bellatox (both locations)"
+    },
+    {
+      "metrics": {
+        "appointments_booked": 0,
+        "appointments_showed": 0,
+        "cost_per_message": null,
+        "cpl": 31.43,
+        "crm_leads": 11,
+        "crm_leads_raw": 11,
+        "ctr": 0.006244,
+        "google_conversions": 0,
+        "google_spend": 0,
+        "impressions": 15694,
+        "landing_page_views": 0,
+        "link_clicks": 98,
+        "messages": 0,
+        "meta_spend": 345.71,
+        "pixel_leads": 11,
+        "reach": 5056,
+        "spend": 345.71,
+        "tiktok_leads": 0,
+        "tiktok_spend": 0
+      },
+      "name": "Beauty to the Bone"
+    },
+    {
+      "metrics": {
+        "appointments_booked": 0,
+        "appointments_showed": 0,
+        "cost_per_message": null,
+        "cpl": 33.24,
+        "crm_leads": 21,
+        "crm_leads_raw": 21,
+        "ctr": 0.010798,
+        "google_conversions": 0,
+        "google_spend": 0,
+        "impressions": 18615,
+        "landing_page_views": 1,
+        "link_clicks": 201,
+        "messages": 0,
+        "meta_spend": 698.04,
+        "pixel_leads": 24,
+        "reach": 13087,
+        "spend": 698.04,
+        "tiktok_leads": 0,
+        "tiktok_spend": 0
+      },
+      "name": "Starwood"
+    },
+    {
+      "metrics": {
+        "appointments_booked": 0,
+        "appointments_showed": 0,
+        "cost_per_message": null,
+        "cpl": null,
+        "crm_leads": 0,
+        "crm_leads_raw": 0,
+        "ctr": 0.024004,
+        "google_conversions": 0,
+        "google_spend": 0,
+        "impressions": 14914,
+        "landing_page_views": 7,
+        "link_clicks": 358,
+        "messages": 0,
+        "meta_spend": 660.1,
+        "pixel_leads": 45,
+        "reach": 9379,
+        "spend": 660.1,
+        "tiktok_leads": 0,
+        "tiktok_spend": 0
+      },
+      "name": "Sanctuaire"
+    },
+    {
+      "metrics": {
+        "appointments_booked": 0,
+        "appointments_showed": 0,
+        "cost_per_message": 83.07,
+        "cpl": 31.95,
+        "crm_leads": 13,
+        "crm_leads_raw": 13,
+        "ctr": 0.017765,
+        "google_conversions": 0,
+        "google_spend": 0,
+        "impressions": 13510,
+        "landing_page_views": 12,
+        "link_clicks": 240,
+        "messages": 5,
+        "meta_spend": 415.36,
+        "pixel_leads": 25,
+        "reach": 7552,
+        "spend": 415.36,
+        "tiktok_leads": 0,
+        "tiktok_spend": 0
+      },
+      "name": "Essential Health"
+    },
+    {
+      "metrics": {
+        "appointments_booked": 0,
+        "appointments_showed": 0,
+        "cost_per_message": 86.45,
+        "cpl": 64.84,
+        "crm_leads": 4,
+        "crm_leads_raw": 4,
+        "ctr": 0.009861,
+        "google_conversions": 0,
+        "google_spend": 0,
+        "impressions": 8113,
+        "landing_page_views": 0,
+        "link_clicks": 80,
+        "messages": 3,
+        "meta_spend": 259.36,
+        "pixel_leads": 14,
+        "reach": 5525,
+        "spend": 259.36,
+        "tiktok_leads": 0,
+        "tiktok_spend": 0
+      },
+      "name": "C Your Beauty"
+    },
+    {
+      "metrics": {
+        "appointments_booked": 0,
+        "appointments_showed": 0,
+        "cost_per_message": 573.24,
+        "cpl": 24.92,
+        "crm_leads": 23,
+        "crm_leads_raw": 23,
+        "ctr": 0.011429,
+        "google_conversions": 0,
+        "google_spend": 0,
+        "impressions": 12162,
+        "landing_page_views": 0,
+        "link_clicks": 139,
+        "messages": 1,
+        "meta_spend": 573.24,
+        "pixel_leads": 26,
+        "reach": 8552,
+        "spend": 573.24,
+        "tiktok_leads": 0,
+        "tiktok_spend": 0
+      },
+      "name": "Desert Zen"
+    }
+  ],
+  "top_ads": [
+    {
+      "ad_name": "DCT-PRX Glow Assets IMG-BOOK",
+      "campaign_name": "KS-PR- (KY)- BellaTox-September PRX Glow Event- Lead- CBO",
+      "crm_leads": null,
+      "messages": 1,
+      "pixel_leads": 70,
+      "spend": 587.96
+    },
+    {
+      "ad_name": "DCT - IMG- Client Assets- BOOK",
+      "campaign_name": "KS-PR- (KY)- BellaTox-Summer Glass X 50% OFF-Lead- CBO",
+      "crm_leads": null,
+      "messages": 0,
+      "pixel_leads": 18,
+      "spend": 122.48
+    },
+    {
+      "ad_name": "DCT-IMG-TUMMY RESCUE-GET OFFER",
+      "campaign_name": "KS PR- DCT-COLD-$149  Mummy Tummy Rescue- TShape-CBO",
+      "crm_leads": null,
+      "messages": 0,
+      "pixel_leads": 17,
+      "spend": 164.54
+    },
+    {
+      "ad_name": "DCT-VID-Client Assets- Book",
+      "campaign_name": "[Updated 5.21.2026] PR | COLD | DCT | $9.99 Tox/$100 Off Filler Model| On FB Lead | CBO- Scaled 7.7.26",
+      "crm_leads": null,
+      "messages": 0,
+      "pixel_leads": 15,
+      "spend": 120.9
+    },
+    {
+      "ad_name": "DCT-IMG-Aug Refresh- Book",
+      "campaign_name": "PR- DCT- Starwood Frisco-COLD- $249 MMM- CBO- Scaled 4.21",
+      "crm_leads": null,
+      "messages": 0,
+      "pixel_leads": 14,
+      "spend": 220.48
+    }
+  ],
+  "unavailable": [
+    "tiktok_spend",
+    "tiktok_leads",
+    "google_spend",
+    "google_conversions"
+  ],
+  "verification": {
+    "checks": [
+      {
+        "detail": "weekly window has 7 day(s)",
+        "name": "window_span",
+        "ok": true
+      },
+      {
+        "detail": "meta 4960.35, google 0.00, tiktok 0.00, total 4960.35",
+        "name": "spend",
+        "ok": true
+      },
+      {
+        "detail": "non-spend aggregate metrics match raw rows",
+        "name": "raw_metrics",
+        "ok": true
+      },
+      {
+        "detail": "raw 203, counted 203",
+        "name": "crm_leads",
+        "ok": true
+      },
+      {
+        "detail": "expected 24.44, got 24.44",
+        "name": "cpl",
+        "ok": true
+      },
+      {
+        "detail": "segment totals do not exceed report totals",
+        "name": "segments_additive",
+        "ok": true
+      },
+      {
+        "detail": "segments cover report totals",
+        "name": "segments_coverage",
+        "ok": true
+      },
+      {
+        "detail": "all headline trends have eight matching points",
+        "name": "headline_trends",
+        "ok": true
+      },
+      {
+        "detail": "raw rows by date: 2026-09-21=62, 2026-09-22=19, 2026-09-23=36, 2026-09-24=22, 2026-09-25=44, 2026-09-26=22, 2026-09-27=21; report has no daily audit rows",
+        "name": "raw_rows_covered",
+        "ok": true
+      },
+      {
+        "detail": "report keys and values match the allowlist",
+        "name": "schema_allowlist",
+        "ok": true
+      },
+      {
+        "detail": "meta pixel leads 322.00, CRM leads 203",
+        "name": "tracking_drift",
+        "ok": true
+      }
+    ],
+    "status": "pass"
+  },
+  "window": {
+    "end": "2026-09-27",
+    "label": "Sep 21 to Sep 27",
+    "start": "2026-09-21"
+  }
+}
