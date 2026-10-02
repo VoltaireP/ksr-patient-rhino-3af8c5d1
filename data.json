@@ -76,6 +76,12 @@
     }
   ],
   "insight": null,
+  "insights": {
+    "creative": "Event invitations with giveaways and model-call offers (a set number of spots at a special rate) are the strongest pulls across the group, and the tummy rescue image beat its video with 17 leads on $164.54. Next we will test the open house format at Starwood or Desert Zen.",
+    "doing": "The spas booked 203 leads into their CRMs this week at $24.44 each, compared with 242 at $25.47 the week before, on lower spend of $4,960.35 against $6,163.43. Bellatox KY led the group with 100 leads at $11.72 each, lifted by its fall open house.",
+    "look_into": "Meta counted 322 leads but only 203 reached the CRMs, so about one in three is not landing. The biggest gaps are Sanctuaire, whose CRM is not connected yet, then Bellatox KY, Essential Health and C Your Beauty. We recommend checking the form connections there first.",
+    "next": "Bellatox KY's open house ended Sep 26, so its leads will likely fall next week unless a follow-on offer takes over. Next we will line up that offer and review the costliest spots: C Your Beauty at $64.84 per lead and the McKinney model call, which spends for few leads."
+  },
   "labels": {
     "cpl": "Cost per CRM lead",
     "crm_leads": "Leads in CRM",
